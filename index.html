@@ -37,7 +37,7 @@
         margin-bottom: 50px;
         font-family: 'Courier New', monospace;
         font-weight: lighter;
-        font-size: 13px;
+        font-size: 5px;
         color: rgb(0, 0, 0);
     }
 
@@ -91,7 +91,15 @@
 		<h2>I also completed an engineering placement at NXP Laboratories UK and graduated from the University of Glasgow with a bachelor's degree in electronic and software engineering.</h2>
 		<h2>When I'm free, I enjoy swimming and <a href="https://www.pedestrianlight.com/" target="_blank" rel="noopener noreferrer">art</a>.</h2>
 		
-		
+
+<h3>This website was last modified:</h3>
+		<p id="date_modified"></p>
+
+<script>
+let text = document.lastModified;
+document.getElementById("date_modified").innerHTML = text;
+</script>
+
 	</div>
 </body>
 
