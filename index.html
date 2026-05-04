@@ -93,13 +93,8 @@
 
 	</div>
 <footer>
-<h3>Last modified:<p id="date_modified"></p></h3>
+<h3>Last modified:<script>        var d = new Date(document.lastModified);        document.write(d.toLocaleDateString('en-GB'));    </script></h3>
 		
-
-<script>
-let text = document.lastModified.toLocaleDateString('en-GB');
-document.getElementById("date_modified").innerHTML = text;
-</script>
 </footer>
 
 </body>
