@@ -98,7 +98,8 @@
 
 <script>
 let text = document.lastModified;
-document.getElementById("date_modified").innerHTML = text;
+let uk_time = text.toLocaleDateString('en-GB');
+document.getElementById("date_modified").innerHTML = uk_time;
 </script>
 </footer>
 
