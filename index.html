@@ -69,7 +69,14 @@
 		width: 23%;
 		padding: 18px;
 	}
-
+.footer {
+   position: fixed;
+   left: 50px;
+   bottom: 0;
+   width: 100%;
+ 
+   text-align: left;
+}
 	.row::after {
 		content: "";
 		clear: both;
@@ -92,11 +99,18 @@
 		<h2>When I'm free, I enjoy swimming and <a href="https://www.pedestrianlight.com/" target="_blank" rel="noopener noreferrer">art</a>.</h2>
 
 	</div>
+
+
 <footer>
-<h3>Last modified:<br><script>
+
+
+<div class="footer">
+  <h3>Last modified:<br><script>
 var d = new Date(document.lastModified);   
 document.write(d.toLocaleDateString('en-GB'));    
 </script></h3>
+</div>
+
 		
 </footer>
 
